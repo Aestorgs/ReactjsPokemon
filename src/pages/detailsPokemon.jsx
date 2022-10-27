@@ -18,7 +18,7 @@ export const DetailsPokemon = () =>{
        <p>name : {pokemons.name} </p> 
        <p>taille : {pokemons.height / 10} m </p>
        <p>poids : {pokemons.weight / 10} kg</p> 
-       <p>types {pokemons.types?.[0].type.name} , {pokemons.types?.[1].type.name} </p>
+       <p>types {pokemons.types?.[0].type.name} </p>
         </>
     )
 }
