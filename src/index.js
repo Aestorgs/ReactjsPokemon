@@ -8,6 +8,7 @@ const root = document.getElementById('root')
 
 const app = createRoot(root);
 
+// j'affiche les composents 
 
 const App = () =>{
     return (
