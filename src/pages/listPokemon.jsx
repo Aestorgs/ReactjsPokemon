@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 
 
-
+//j'affiche la liste des pokemons 
 export const ListPokemon = () =>{
 
     const [pokemons , setPokemons] = useState([])
