@@ -1,6 +1,8 @@
 import React from "react"
 import { useParams , useState } from "react-router-dom"
 
+
+// j'affiche le details des pokemons 
 export const DetailsPokemon = () =>{
     const { name } = useParams()
     const [pokemons , setPokemons] = React.useState({})
